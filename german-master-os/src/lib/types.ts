@@ -9,7 +9,18 @@ export type GermanWordType =
   | "preposition"
   | "conjunction"
   | "article"
-  | "phrase";
+  | "phrase"
+  | "adj"
+  | "adv"
+  | "art"
+  | "aux"
+  | "conj"
+  | "inf"
+  | "interj"
+  | "num"
+  | "part"
+  | "prep"
+  | "pron";
 
 export type GermanVocabularyWord = {
   id: string;
